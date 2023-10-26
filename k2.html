@@ -1,0 +1,37 @@
+<html>
+    <head>
+       <script type="text/javascript">
+       c=1;
+       function demo()
+       {
+           if(c==1)
+           {
+               document.getElementById('x').innerHTML="LUCKY";
+               document.getElementById('x').style.background="blue";
+               document.getElementById('x').style.color="white";
+               c++;
+           }
+           else if(c==2)
+           {
+               document.getElementById('x').innerHTML="VERMA";
+               document.getElementById('x').style.background="red";
+               document.getElementById('x').style.color="yellow";
+               c++;
+           }
+           else
+           {
+               document.getElementById('x').innerHTML="jiiiiiiii";
+               document.getElementById('x').style.background="black";
+               document.getElementById('x').style.color="white";
+               c=1;
+           }
+           setTimeout(demo,1000);
+       }
+          </script>
+    </head>
+    <body onload="demo()">
+        <center>
+            <h1 id="x"></h1>
+            </center>
+    </body>    
+</html>

@@ -1,0 +1,18 @@
+class demo
+{
+    public static void main( String args[])
+    {
+        for (i=2;i<=2;i++)
+         {for(j=1;j<=3;j++)
+            {
+                K:
+                for(k=1;k<=3;k++)
+                {
+                    if(j==2) continue K;
+                    System.out.println(j);
+                }
+                      }
+                    System.out.println("softwave 1 ");
+         }}
+
+    }

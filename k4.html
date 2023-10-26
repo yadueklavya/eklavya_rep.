@@ -1,0 +1,59 @@
+<html>
+<head>
+<style type="text/css">
+p
+{
+background:black;
+color:white;
+}
+font
+{
+background:red;
+color:white;
+}
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('wallpaperflare.com_wallpaper (8).jpg');
+background-size:cover;
+background-repeat:no repeat;
+}
+</style>
+<script type="text/javascript">
+c=1;
+function demo()
+{
+d=new Date();
+document.getElementById('h').innerHTML=d.getHours();
+document.getElementById('m').innerHTML=d.getMinutes();
+document.getElementById('s').innerHTML=d.getSeconds();
+
+if(c==1)
+{
+
+document.getElementById('lplp').innerHTML=":";
+document.getElementById('lplp2').innerHTML=":";
+c++;
+}
+else
+{
+document.getElementById('lplp').innerHTML="";
+document.getElementById('lplp2').innerHTML="";
+c=1;
+}
+setTimeout(demo,1000);
+}
+</script>
+</head>
+<body onload="demo()">
+<center>
+
+<p style="font-size:50"> 
+    <font id="h"></font><h id="lplp">|</h>
+    <font id="m"></font><h id="lplp2">|</h>
+    <font id="s"></font>
+	<h1>EKLAVYA YADU </h1>
+</p>
+</center>
+</body>
+
+</html>

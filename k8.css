@@ -1,0 +1,27 @@
+.mymenu{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin: 20px;
+	background-image:url('login.jpg');
+	width:190.5px;
+	
+}
+button {
+	font-size: 18px;
+	padding: 10px;
+	color:blue;
+	background-color:yellow;
+	 border-radius: 10px 10px ; 
+	 
+}
+button.A {
+	background-color: red;
+	color: white;
+}
+input {
+	grid-column: 1 / span 4;
+	padding: 10px;
+	font-size: 24px;
+	text-align: right;
+}
